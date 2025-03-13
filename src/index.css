@@ -153,8 +153,7 @@ body{
   .hero h3{
     font-size: 30px;
   }
-  .herobtn a{
-    text-decoration: none;
+  .herobtn button{
     color: black;
   }
   .about{
