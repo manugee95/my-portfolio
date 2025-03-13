@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Roboto Slab', serif;
+}
+.header{
+  padding: 30px 100px;
+}
+.header span{
+  background-color: #93f302;
+  padding: 10px 15px;
+  border-radius: 25px;
+  font-size: 15px;
+}
+.hero{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 100px;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(../code.jpg);
+  height: 90vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.hero img{
+  height: 400px;
+  border-radius: 10px;
+}
+.hero h3{
+  font-size: 50px;
+}
+.tagline{
+  margin: 20px 0px;
+}
+.herobtn{
+  display: flex;
+  gap: 18px;
+}
+.herobtn button{
+  padding: 10px 20px;
+  border: none;
+  background-color: #93f302;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.about{
+  padding: 50px 100px;
+}
+.about h1{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about p{
+  line-height: 30px;
+}
+.about-image{
+  display: none;
+}
+.portfolio{
+  padding: 50px;
+  background: #93f302;
+}
+.portfolio h1{
+  font-size: 40px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.portitems{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  text-align: center;
+}
+.portitems h3{
+  margin-top: 20px;
+}
+.portitems img{
+  height: 200px;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  cursor: pointer;
+  object-fit: cover;
+}
+.portitems img:hover{
+  transform: scale(1.1);
+}
+.portitems div{
+  background: white;
+  border-radius: 10px;
+  padding-bottom: 20px;
+  width: 30%;
+}
+.contact{
+  padding: 50px;
+  text-align: center;
+}
+.contact form{
+  margin: 20px auto;
+  width: 50%;
+}
+.contact button{
+  padding: 20px 50px;
+  border: none;
+  background-color: #93f302;
+  font-size: 16px;
+  border-radius: 25px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.formfields{
+  display: flex;
+  flex-direction: column;
+}
+.formfields input{
+  padding: 10px;
+  margin: 10px 0px;
+  font-size: 17px;
+}
+.formfields textarea{
+  padding: 10px;
+  margin: 10px 0px;
+  font-size: 17px;
+}
+.footer{
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
+  .header{
+    padding: 30px;
+  }
+  .hero{
+    padding: 20px;
+    height: 60vh;
+  }
+  .hero img{
+    display: none;
+  }
+  .hero h3{
+    font-size: 30px;
+  }
+  .about{
+    padding: 50px 10px;
+  }
+  .about h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .about-image{
+    display: block;
+  }
+  .about-image img{
+    height: 300px;
+    border-radius: 10px;
+  }
+  .portfolio{
+    padding: 50px 20px;
+    background: #93f302;
+  }
+  .portfolio h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .portitems{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+  }
+  .portitems div{
+    background: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+  }
+  .contact{
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .contact form{
+    margin: 20px auto;
+    width: 100%;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 999px) {
+  .header{
+    padding: 30px;
+  }
+  .hero{
+    padding: 20px;
+    height: 80vh;
+  }
+  .hero img{
+    display: block;
+    height: 250px;
+  }
+  .hero h3{
+    font-size: 30px;
+  }
+  .about{
+    padding: 50px 10px;
+  }
+  .about h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .about-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .about-image{
+    display: none;
+  }
+  .about-image img{
+    height: 300px;
+    border-radius: 10px;
+  }
+  .portfolio{
+    padding: 50px 20px;
+    background: #93f302;
+  }
+  .portfolio h1{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .portitems{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    text-align: center;
+  }
+  .portitems div{
+    background: white;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    width: 48%;
+  }
+  .contact{
+    padding: 50px 20px;
+    text-align: center;
+  }
+  .contact form{
+    margin: 20px auto;
+    width: 70%;
+  }
+}
