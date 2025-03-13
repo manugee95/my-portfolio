@@ -145,12 +145,17 @@ body{
   .hero{
     padding: 20px;
     height: 60vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(../code.jpg);
   }
   .hero img{
     display: none;
   }
   .hero h3{
     font-size: 30px;
+  }
+  .herobtn a{
+    text-decoration: none;
+    color: black;
   }
   .about{
     padding: 50px 10px;
@@ -201,6 +206,9 @@ body{
   .contact form{
     margin: 20px auto;
     width: 100%;
+  }
+  .contact button{
+    color: black;
   }
 }
 
