@@ -13,7 +13,7 @@ function Header() {
             Applications.
           </p>
           <div className="herobtn">
-            <a href="/Emmanuel_CV_latest.pdf" download={"/Emmanuel_CV_latest.pdf"}><button>Download CV</button></a>
+            <a href="/Emmanuel_CV_Updated.pdf" download={"/Emmanuel_CV_latest.pdf"}><button>Download CV</button></a>
             <a href="#contact"><button>Hire Me</button></a>
           </div>
         </div>
